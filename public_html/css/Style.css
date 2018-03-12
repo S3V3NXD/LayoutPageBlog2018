@@ -1,6 +1,13 @@
 /*.container{
     border: solid black 1px !important;
 }*/
+nav{
+    min-height: 19% !important;
+}
+
+footer{
+    min-height: 0px !important;
+}
 
 .carousel{
     height: 35em !important;
@@ -40,19 +47,18 @@
     margin-top: 222px;
     margin-left: 63px;
     color: green;
-/*    border: solid black 1px;*/
+    cursor: pointer;
 }
 
 .indicadorR{
     margin-top: 222px;
     margin-right: 185px;
     color: green;
-/*    border: solid black 1px;*/
+    cursor: pointer;
 }
 
 .cartaoMenor{
     width: 26% !important;
-/*    border: solid black 1px;*/
 }
 
 .altura{
@@ -176,7 +182,7 @@ fieldset{
 .legend2{
     position: absolute;
     bottom: -168ex;
-    top: 284.5ex;
+    top: 293.5ex;
     width: 230px;
     height: 40px;
     margin-left: 10px;
@@ -211,18 +217,18 @@ caption, .legend2 {
 @media only screen and (max-width: 1024px){
     .indicadorR{
         margin-right: -18px;
+        cursor: pointer;
     }
     
     .indicadorL{
-        /*border: solid black 1px;*/
+        cursor: pointer;
         margin-left: -14px;
     }
     
-    .indicadorR{
-        /*border: solid black 1px;*/
-        margin-left: -0px;
+    .divider{
+        margin-left: 70px !important;
+        margin-right: 56px !important;
     }
-   
     .carousel{
         height: 38em !important;
     }
@@ -230,4 +236,184 @@ caption, .legend2 {
     .meio{
         margin-left: 59px !important;
     }
+    
+    .imgSubnews{
+        margin-left: -15px;
+    }
+    
+    fieldset{
+        border-color: green;
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+        margin-left: 82px;
+        margin-right: 66px;
+        margin-top: 20px;
+    }
+    
+    .squad{
+        margin-left: 73px;
+        width: 83.5% !important;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .indicadorR{
+        margin-right: 32px;
+        cursor: pointer;
+    }
+    
+    .indicadorL{
+        cursor: pointer;
+    }
+    
+    .divider{
+        margin-right: 113px !important;
+    }
+    
+    fieldset{
+        margin-right: 121px;
+    }
+    
+    .squad{
+        width: 73.3% !important;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .indicadorR{
+        margin-right: 55px;
+        cursor: pointer;
+    }
+    
+    .indicadorL{
+        cursor: pointer;
+    }
+    
+    .divider{
+        margin-right: 143px !important;
+    }
+
+    fieldset{
+        border-color: green;
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+        margin-left: 160px;
+        margin-right: 155px;
+        margin-top: 20px;
+    }
+    
+    .squad{
+        width: 71.5% !important;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .indicadorR{
+        margin-right: 85px;
+        cursor: pointer;
+    }
+    
+    .indicadorL{
+        cursor: pointer;
+    }
+    
+    .divider{
+        margin-right: 172px !important;
+    }
+    
+    fieldset{
+        margin-right: 182px;
+    }
+    
+    .squad{
+        width: 70.5% !important;
+    }
+}
+
+@media only screen and (min-width: 1600px){
+    .meio{
+        margin-left: 2.25em !important;
+    }
+    
+    .indicadorR{
+        margin-right: 87px;
+        cursor: pointer;
+    }
+    
+    .indicadorL{
+        cursor: pointer;
+    }
+    
+    .divider{
+        margin-right: 179px !important;
+    }
+    
+    fieldset{
+        margin-right: 190px;
+    }
+    
+    .squad{
+        width: 72.8% !important;
+    }
+}
+
+@media only screen and (min-width: 1680px){
+    .meio{
+        margin-left: 1em !important;
+        height: 520px;
+    }
+    
+    .indicadorR{
+        margin-right: 114px;
+        cursor: pointer;
+    }
+    
+    .indicadorL{
+        cursor: pointer;
+    }
+    
+    .divider{
+        margin-right: 201px !important;
+    }
+    
+    fieldset{
+        margin-right: 211px;
+    }
+    
+    .squad{
+        width: 72.4% !important;
+    }
+    
+    .cartaoMenor{
+        width: 24% !important;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .divider{
+        margin-right: 212px !important;
+    }
+    
+    .indicadorR{
+        margin-right: 122px;
+        cursor: pointer;
+    }
+    
+    indicatorL{
+        cursor: pointer;
+    }
+    
+    fieldset{
+        margin-right: 221px;
+    }
+    
+    .squad{
+        width: 72.1% !important;
+    }
+}
+
+.logos > img:first-child{
+    width: 27% !important;
 }
