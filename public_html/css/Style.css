@@ -463,6 +463,24 @@ caption, .legend2 {
     .knowTeam{
         width: 76.4% !important;
     }
+    
+    .meio{
+        margin-left: 1.3em !important;
+    }
+    
+    .articlesQ{
+        margin: 7px 5px 0px 0px;
+        width: 293.5px !important;
+    }
+    
+    .legend2{
+        width: 203px;
+        margin-left: 33px;
+    }
+    
+    .imgPeople{
+        margin-left: 87px;
+    }
 }
 
 @media only screen and (min-width: 1920px){
@@ -485,6 +503,10 @@ caption, .legend2 {
     
     .squad{
         width: 72.1% !important;
+    }
+    
+    .articlesQ{
+        margin: 7px 10px 0px 0px;
     }
 }
 
