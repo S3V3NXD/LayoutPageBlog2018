@@ -158,10 +158,9 @@ fieldset{
 .articlesQ{
     width: 273.5px !important;
     height: 270px;
-    margin: 7px 10px 0px 0px;
+    margin: 7px 45px 0px 0px;
     margin-left: 11px !important;
-/*    position: relative;*/
-/*    padding: 0.35em 0.625em 0.75em;*/
+    
 }
 
 .fieldsetTeam {
@@ -170,8 +169,7 @@ fieldset{
 }
 
 .squad{
-    width: 67.5% !important;
-/*    border: solid black 1px;*/
+    width: 72.7% !important;
     margin-left: 148px;
 }
 
@@ -180,12 +178,10 @@ fieldset{
 }
 
 .legend2{
-    position: absolute;
-    bottom: -168ex;
-    top: 293.5ex;
-    width: 230px;
+    width: 200px;
     height: 40px;
-    margin-left: 10px;
+    margin-left: 25px;
+    margin-top: 40px;
     background: red;
 }
 
@@ -212,7 +208,6 @@ caption, .legend2 {
 .author-Text{
     margin-left: -28px;
 }
-
 
 @media only screen and (max-width: 1024px){
     .indicadorR{
@@ -254,6 +249,25 @@ caption, .legend2 {
     .squad{
         margin-left: 73px;
         width: 83.5% !important;
+        overflow: hidden !important;
+    }
+    
+    .articlesQ{
+        margin: 7px 5px 0px 0px;
+        width: 203.5px !important;
+    }
+    
+    .legend2{
+        width: 157px;
+        margin-left: 12px;
+    }
+    
+    .imgPeople{
+        margin-left: 46px;
+    }
+    
+    .knowTeam{
+        width: 111.5% !important;
     }
 }
 
@@ -277,6 +291,20 @@ caption, .legend2 {
     
     .squad{
         width: 73.3% !important;
+    }
+    
+    .articlesQ{
+        margin: 7px 5px 0px 0px;
+        width: 224.5px !important;
+    }
+    
+    .legend2{
+        width: 165px;
+        margin-left: 18px;
+    }
+    
+    .imgPeople{
+        margin-left: 53px;
     }
 }
 
@@ -307,6 +335,20 @@ caption, .legend2 {
     .squad{
         width: 71.5% !important;
     }
+    
+    .articlesQ{
+        margin: 7px 5px 0px 0px;
+        width: 234.5px !important;
+    }
+    
+    .legend2{
+        width: 165px;
+        margin-left: 24px;
+    }
+    
+    .imgPeople{
+        margin-left: 59px;
+    }
 }
 
 @media only screen and (min-width: 1440px){
@@ -329,6 +371,20 @@ caption, .legend2 {
     
     .squad{
         width: 70.5% !important;
+    }
+    
+    .articlesQ{
+        margin: 7px 5px 0px 0px;
+        width: 244.5px !important;
+    }
+    
+    .legend2{
+        width: 188px;
+        margin-left: 17px;
+    }
+    
+    .imgPeople{
+        margin-left: 63px;
     }
 }
 
@@ -357,11 +413,25 @@ caption, .legend2 {
     .squad{
         width: 72.8% !important;
     }
+    
+    .articlesQ{
+        margin: 7px 5px 0px 0px;
+        width: 280.5px !important;
+    }
+    
+    .legend2{
+        width: 197px;
+        margin-left: 30px;
+    }
+    
+    .imgPeople{
+        margin-left: 81px;
+    }
 }
 
 @media only screen and (min-width: 1680px){
     .meio{
-        margin-left: 1em !important;
+        margin-left: 0.3em !important;
         height: 520px;
     }
     
@@ -388,6 +458,10 @@ caption, .legend2 {
     
     .cartaoMenor{
         width: 24% !important;
+    }
+    
+    .knowTeam{
+        width: 76.4% !important;
     }
 }
 
