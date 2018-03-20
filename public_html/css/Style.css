@@ -213,6 +213,10 @@ a{
     color: black;
 }
 
+.card .card-content{
+    margin-left: 15px !important;
+}
+
 @media only screen and (max-width: 1024px){
     .indicadorR{
         margin-right: -18px;
