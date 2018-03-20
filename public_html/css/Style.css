@@ -217,6 +217,15 @@ a{
     margin-left: 15px !important;
 }
 
+@media only screen and (min-width: 360px){
+    .indicadorL{
+        visibility: hidden;
+    }
+    .indicadorR{
+        visibility: hidden;
+    }
+}
+
 @media only screen and (max-width: 1024px){
     .indicadorR{
         margin-right: -18px;

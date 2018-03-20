@@ -63,24 +63,24 @@
                 <div class="col s2 nav-FuncoesMobile">
                     <a href="JavaScript: window.history.back();"><img src="img/logos/back.png"></a>
                 </div>
-                <div class="col s2 nav-FuncoesMobile" onclick="{{URL::to('/')}}">
-                    <a href="{{URL::to('/')}}"><img src="img/logos/home.png"></a>
+                <div class="col s2 nav-FuncoesMobile">
+                    <a href=""><img src="img/logos/home.png"></a>
                 </div>
                 <div class="col s2 nav-FuncoesMobile">
-                    <a href="{{URL::to('/login')}}"><img src="img/logos/login.png"></a>
+                    <a href=""><img src="img/logos/login.png"></a>
                 </div>
                 <div class="col offset-s2 s2 nav-FuncoesMobile" id="abrirPesquisa">
-                    <a><img src="asset('img/logos/lupa.png"></a>
+                    <a><img src="img/logos/lupa.png"></a>
                 </div>
                 <ul class="side-nav" id="mobile-demo">
-                    <li> <a href="JavaScript: window.history.back();"> <i class="material-icons left">undo</i>Voltar </a> </li>
-                    <li> <a href="{{URL::to('/')}}"> <i class="material-icons left">home</i>Início </a> </li>
-                    @foreach($icones_index as $icone)
-                    <?php $str = explode("/", $icone->link); ?>
-                    <li {!! classActiveSegment(count($str), end($str)) !!}>
-                        <a href="{{URL::to($icone->link)}}"><i class="material-icons left">{{$icone->icone}}</i>{{$icone->titulo}}</a>
+                    <li> <a href=""> <i class="material-icons left">undo</i>Voltar</a> </li>
+                    <li> <a href=""> <i class="material-icons left">home</i>Início </a> </li>
+<!--                    @foreach($icones_index as $icone)
+                    <?php $str = explode("/", $icone->link); ?>-->
+                    <li>
+                        <a href=""><i class="material-icons left"></i></a>
                     </li>
-                    @endforeach
+<!--                    @endforeach-->
                 </ul>
             </div>
         </nav>
@@ -367,6 +367,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
 
 
