@@ -16,4 +16,3 @@ function autoplay(){
     setTimeout(autoplay, 10000);
     $(".carousel").carousel("next");
 }
-
